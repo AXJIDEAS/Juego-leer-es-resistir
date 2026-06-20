@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leer es Resistir — El Juego</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- CABECERA -->
+  <header>
+    <span class="book-icon">📖</span>
+    <h1>Leer es <em>Resistir</em></h1>
+    <p class="autor">— Mario Mendoza · El Juego —</p>
+  </header>
+
+  <!-- PANTALLA INICIO -->
+  <div id="screen-intro">
+    <p class="intro-quote">
+      "Leer es ya en sí mismo un acto de desobediencia frente a las políticas de la productividad capitalista. Y, por encima de todo, leer es una fuerza que significa emancipación, resistencia y resiliencia."
+    </p>
+
+    <div class="intro-rules">
+      <h3>⚔ Reglas del juego</h3>
+      <ul>
+        <li><span class="icon">🐫</span> te haremos 10 preguntas basadas en el libro de Mario Mendoza ñejeje</li>
+        <li><span class="icon">⭐</span> Cada respuesta correcta suma 10 puntos oh yea</li>
+        <li><span class="icon">🔥</span> Racha de 3 seguidas otorga +5 puntos de bonus (omaigad)</li>
+        <li><span class="icon">🥲</span> Si fallas, recibirás retroalimentación del libro</li>
+        <li><span class="icon">🏆</span> Necesitas 70+ puntos para ganar</li>
+      </ul>
+    </div>
+
+    <button class="btn-start" onclick="startGame()">Abrir el libro →</button>
+  </div>
+
+  <!-- PANTALLA JUEGO -->
+  <div id="screen-game" style="display:none">
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-value" id="score">0</span>
+        <span class="stat-label">Puntos</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-value" id="correct-count">0</span>
+        <span class="stat-label">Correctas</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-value" id="streak-count">0</span>
+        <span class="stat-label">Racha</span>
+      </div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span id="progress-text">Pregunta 1 de 10</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="streak-banner" id="streak-banner">🔥 ¡Ay papá! +5 puntos bonus</div>
+
+    <div class="question-card slide-in" id="question-card">
+      <span class="quote-mark">"</span>
+      <span class="question-number" id="q-number">Pregunta 1</span>
+      <p class="question-text" id="q-text"></p>
+    </div>
+
+    <div class="options-grid" id="options-grid"></div>
+
+    <div class="feedback-box" id="feedback-box">
+      <span class="feedback-emoji" id="fb-emoji"></span>
+      <div class="feedback-title" id="fb-title"></div>
+      <div class="feedback-text" id="fb-text"></div>
+    </div>
+
+    <button class="btn-next" id="btn-next" onclick="nextQuestion()">
+      Continuar la lectura →
+    </button>
+  </div>
+
+  <!-- PANTALLA RESULTADO -->
+  <div id="screen-result">
+    <span class="result-badge" id="result-badge"></span>
+    <h2 class="result-title" id="result-title"></h2>
+    <span class="result-score" id="result-score"></span>
+    <p class="result-score-label">puntos totales</p>
+    <p class="result-message" id="result-message"></p>
+
+    <div class="result-summary" id="result-summary">
+      <h3>Repaso de respuestas</h3>
+      <div id="summary-list"></div>
+    </div>
+
+    <button class="btn-restart" onclick="restartGame()">Otra vez!!!!</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
