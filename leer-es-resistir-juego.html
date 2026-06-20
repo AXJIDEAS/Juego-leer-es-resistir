@@ -3,37 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Leer es Resistir — El Juego</title>
-<link rel="stylesheet" href="style.css">
+<title>La Lectura Crítica y la Ingeniería en Sistemas — El Juego</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
 
   <!-- CABECERA -->
   <header>
-    <span class="book-icon">📖</span>
-    <h1>Leer es <em>Resistir</em></h1>
-    <p class="autor">— Mario Mendoza · El Juego —</p>
+    <span class="book-icon">[|]</span>
+    <h1>La Lectura Crítica y la <em>Ingeniería en Sistemas</em></h1>
+    <p class="autor">— Hinestroza · Soto · Maldonado · El Juego —</p>
   </header>
 
   <!-- PANTALLA INICIO -->
   <div id="screen-intro">
     <p class="intro-quote">
-      "Leer es ya en sí mismo un acto de desobediencia frente a las políticas de la productividad capitalista. Y, por encima de todo, leer es una fuerza que significa emancipación, resistencia y resiliencia."
+      Un libro no está hecho para que le creamos: está hecho para ser investigado. La pregunta nunca es solo qué dice, sino qué significa.
     </p>
 
     <div class="intro-rules">
       <h3>⚔ Reglas del juego</h3>
       <ul>
-        <li><span class="icon">🐫</span> te haremos 10 preguntas basadas en el libro de Mario Mendoza ñejeje</li>
-        <li><span class="icon">⭐</span> Cada respuesta correcta suma 10 puntos oh yea</li>
-        <li><span class="icon">🔥</span> Racha de 3 seguidas otorga +5 puntos de bonus (omaigad)</li>
-        <li><span class="icon">🥲</span> Si fallas, recibirás retroalimentación del libro</li>
-        <li><span class="icon">🏆</span> Necesitas 70+ puntos para ganar</li>
+        <li><span class="icon">🐫</span> 15 preguntas basadas en nuestra tesis sobre lectura crítica e ingeniería en sistemas, así que piense bien papito</li>
+        <li><span class="icon">⭐</span> Cada respuesta correcta suma 10 puntos</li>
+        <li><span class="icon">🔥</span> Racha de 3 seguidas otorga +5 puntos de bonus</li>
+        <li><span class="icon">💡</span> Si fallas, recibirás retroalimentación basada en el documento</li>
+        <li><span class="icon">🏆</span> Necesitas acertar al menos el 70% de las preguntas para ganar, de lo contrario, LEA</li>
       </ul>
     </div>
 
-    <button class="btn-start" onclick="startGame()">Abrir el libro →</button>
+    <button class="btn-start" onclick="startGame()">Comenzar la lectura crítica →</button>
   </div>
 
   <!-- PANTALLA JUEGO -->
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="streak-banner" id="streak-banner">🔥 ¡Ay papá! +5 puntos bonus</div>
+    <div class="streak-banner" id="streak-banner">🔥 ¡Racha en llamas! +5 puntos bonus</div>
 
     <div class="question-card slide-in" id="question-card">
       <span class="quote-mark">"</span>
@@ -82,7 +82,7 @@
     </div>
 
     <button class="btn-next" id="btn-next" onclick="nextQuestion()">
-      Continuar la lectura →
+      Continuar el análisis →
     </button>
   </div>
 
@@ -99,7 +99,7 @@
       <div id="summary-list"></div>
     </div>
 
-    <button class="btn-restart" onclick="restartGame()">Otra vez!!!!</button>
+    <button class="btn-restart" onclick="restartGame()">Volver a intentarlo</button>
   </div>
 
 </div>

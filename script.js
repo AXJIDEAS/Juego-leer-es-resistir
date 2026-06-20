@@ -1,142 +1,212 @@
 const preguntas = [
   {
-    texto: "Según Mario Mendoza, ¿por qué comenzó a leer de niño?",
+    texto: "Según el resumen de la tesis, ¿qué busca la literatura al convencer al lector de una idea?",
     opciones: [
-      "Por exigencia del colegio y sus maestros",
-      "Durante una grave enfermedad en el hospital, los libros fueron sus primeros compañeros",
-      "Su padre era escritor y lo obligó a leer desde pequeño",
-      "Para aprender a escribir mejor la ortografía"
+      "Sustituir por completo el estudio técnico de la ingeniería",
+      "Llevarlo a vivir ciertas situaciones y dejarle nuevos aprendizajes, de forma parecida a un texto académico pero con lenguaje más accesible",
+      "Enseñarle reglas de ortografía y gramática avanzada",
+      "Reemplazar los manuales técnicos que usa el ingeniero"
     ],
     correcta: 1,
     feedback: {
-      correcto: "¡Exacto! A los siete años, Mendoza enfermó de peritonitis gangrenosa y fue en el hospital donde los primeros libros llegaron a sus manos. Los personajes de esos textos fueron sus compañeros en la tristeza.",
-      incorrecto: "Mendoza relata que a los siete años sufrió una peritonitis gangrenosa y casi murió. Fue en ese período hospitalario que los libros llegaron a sus manos por primera vez, convirtiéndose en sus aliados y compañeros."
+      correcto: "Así es. El resumen plantea que la literatura funciona como un texto académico, solo que con un lenguaje más cercano y menos tecnicismos, llevando al lector a experimentar situaciones que dejan aprendizajes.",
+      incorrecto: "La tesis explica que la literatura convence al lector llevándolo a experimentar situaciones e implantándole nuevos aprendizajes, de manera similar a un documento académico pero con un lenguaje más accesible y menos técnico."
     }
   },
   {
-    texto: "¿Qué personaje histórico menciona Mendoza como ejemplo de alguien que llevó libros a la cárcel como su bien más preciado?",
+    texto: "Cuando el lector deja de ver un libro solo como un libro y empieza a analizar su profundidad, sus virtudes y sus falencias, ¿qué herramienta del ingeniero se fortalece según la tesis?",
     opciones: [
-      "Nelson Mandela",
-      "Malcolm X",
-      "Mahatma Gandhi",
-      "Álvaro Mutis"
+      "La memoria a corto plazo",
+      "La velocidad de lectura",
+      "La lógica",
+      "El manejo de hojas de cálculo"
     ],
     correcta: 2,
     feedback: {
-      correcto: "¡Brillante! Mendoza describe la famosa fotografía de Gandhi siendo conducido a la cárcel cargando una torre de libros. Una imagen que sintetiza la fe en la literatura como resistencia.",
-      incorrecto: "La respuesta es Gandhi. Mendoza cita la impactante fotografía donde Gandhi, conducido a la cárcel en invierno con su escaso ropaje, lleva en sus brazos lo único que realmente le importa: una torre de libros."
+      correcto: "Exacto. El resumen es claro: ese análisis crítico desarrolla el espíritu crítico del lector y, al mismo tiempo, fortalece la lógica, una de las herramientas más poderosas del ingeniero.",
+      incorrecto: "Según el resumen, analizar la profundidad de una obra desarrolla el espíritu crítico del lector y fortalece la lógica, descrita en la tesis como una de las herramientas más poderosas del ingeniero para resolver problemas reales."
     }
   },
   {
-    texto: "Según Mendoza, ¿cuál fue el \"arma\" que permitió al Homo sapiens derrotar a los neandertales?",
+    texto: "¿Cuál de las siguientes NO aparece entre las palabras clave del documento?",
     opciones: [
-      "La fuerza física y el tamaño superior del cuerpo",
-      "Las herramientas de piedra y las lanzas afiladas",
-      "La imaginación, los mitos, el lenguaje y los universos paralelos",
-      "La capacidad de cocinar alimentos con fuego"
-    ],
-    correcta: 2,
-    feedback: {
-      correcto: "¡Sí! Mendoza cita a Yuval Noah Harari en Sapiens para explicar que fue la imaginación común, el lenguaje y el mito lo que nos diferenció de los neandertales y nos permitió vencerlos.",
-      incorrecto: "Mendoza cita a Yuval Noah Harari: el Homo sapiens venció a los neandertales no por fuerza, sino gracias a la imaginación, los universos paralelos, los mitos, los espíritus y el lenguaje compartido. Los rapsodas y chamanes iban en primera línea."
-    }
-  },
-  {
-    texto: "Mendoza dice que la literatura pertenece a las artes mágicas porque…",
-    opciones: [
-      "Mejora la ortografía y estimula el aprendizaje académico",
-      "Nos permite encarnar otros individuos y salir de nosotros mismos en un proceso extático",
-      "Es la única forma de entender la historia universal",
-      "Nos da cultura general y nos hace más críticos con la sociedad"
+      "Ciencia ficción",
+      "Inteligencia artificial",
+      "Pensamiento",
+      "Desarrollo"
     ],
     correcta: 1,
     feedback: {
-      correcto: "¡Perfecto! Para Mendoza la literatura no es un argumento pedagógico sino magia dionisíaca: ingresamos en un libro para encarnar en otros, vivir sus vidas y regresar transformados.",
-      incorrecto: "Mendoza rechaza los argumentos pedagógicos convencionales. Para él, leer es un proceso extático: «ingresamos en un libro para encarnar en otros individuos, para meternos dentro de ellos y vivir sus vidas. Salimos de nosotros mismos». Un lector es un vampiro que se alimenta de otros."
+      correcto: "Correcto. Aunque la inteligencia artificial se menciona dentro del texto, las palabras clave oficiales son: literatura, tecnología, ingeniería, conocimiento, desarrollo, ciencia ficción, pensamiento y lógico.",
+      incorrecto: "La inteligencia artificial se discute dentro del documento, pero no figura en la lista de palabras clave, que incluye: literatura, tecnología, ingeniería, conocimiento, desarrollo, ciencia ficción, pensamiento y lógico."
     }
   },
   {
-    texto: "¿Quién es Malcolm X en el contexto que menciona el libro?",
+    texto: "Según la introducción, ¿qué tipo de textos ayudan a fortalecer el pensamiento crítico, la creatividad y la capacidad de análisis del estudiante de ingeniería?",
     opciones: [
-      "Un filósofo europeo que escribió sobre la libertad",
-      "Un músico de jazz que inspiró el movimiento por los derechos civiles",
-      "Un delincuente que se transformó en líder del Black Power gracias a la lectura en prisión",
-      "Un poeta colombiano amigo personal de Mario Mendoza"
-    ],
-    correcta: 2,
-    feedback: {
-      correcto: "¡Correcto! Malcolm Little era un malandro hasta que lo encarcelaron. En la cárcel descubrió el poder de la lectura y los libros lo convirtieron en otro sujeto: Malcolm X, el líder del Black Power norteamericano.",
-      incorrecto: "Mendoza cuenta que Malcolm Little era un delincuente común hasta que lo capturaron. En ese lugar lóbrego descubrió la lectura. Cuando lo liberaron, salió transformado en Malcolm X, el líder del Black Power. Los libros lo reinventaron."
-    }
-  },
-  {
-    texto: "¿Qué imagen fotográfica de la guerra en Ucrania menciona Mendoza como símbolo de la resistencia cultural?",
-    opciones: [
-      "Un niño leyendo en medio de escombros bombardeados",
-      "El estudio del escritor Lev Shevchenko con libros tapiando la ventana para protegerla",
-      "Una biblioteca pública destruida por misiles",
-      "Un soldado que llevaba poemas en su mochila de guerra"
+      "Los manuales técnicos de programación",
+      "Las narrativas postglobal y de ciencia ficción",
+      "Las biografías de empresarios tecnológicos",
+      "Los reportes financieros de empresas de software"
     ],
     correcta: 1,
     feedback: {
-      correcto: "¡Excelente! La fotografía del estudio de Lev Shevchenko con volúmenes arrumados contra el vidrio es una de las imágenes más poderosas del libro: oponer la cultura a los tanques y misiles.",
-      incorrecto: "Mendoza describe la foto del estudio del escritor Lev Shevchenko en Ucrania, con libros de antropología, filosofía y novelas apilados contra la ventana. No solo para evitar que los vidrios se rompan, sino para «oponerle la cultura a los tanques, los misiles y los aviones de combate»."
+      correcto: "Así es. La introducción señala que comprender textos sobre narrativas postglobal y ciencia ficción fortalece el pensamiento crítico, la creatividad y el pensamiento autónomo del estudiante.",
+      incorrecto: "La introducción explica que la correcta lectura de narrativas postglobal y de ciencia ficción fortalece el pensamiento crítico, la creatividad, la capacidad de análisis y el pensamiento autónomo del estudiante."
     }
   },
   {
-    texto: "Mendoza afirma que leer es un acto de resistencia. ¿Frente a qué resiste principalmente según el libro?",
+    texto: "¿Qué tipo de historias se mencionan en la introducción como reflejo de un mundo donde las personas deben adaptarse constantemente a nuevas realidades?",
     opciones: [
-      "Las políticas de productividad capitalista y la brutalidad del sistema",
-      "Las matemáticas y las ciencias exactas",
-      "La tradición oral de los pueblos indígenas",
-      "La tecnología digital y las redes sociales"
+      "Historias de migración, pandemia y transformación social",
+      "Cuentos de hadas tradicionales",
+      "Relatos de viajes en el tiempo",
+      "Sagas familiares del siglo XIX"
     ],
     correcta: 0,
     feedback: {
-      correcto: "¡Muy bien! Mendoza es claro: «Leer es ya en sí mismo un acto de desobediencia frente a las políticas de la productividad capitalista». El lector se convierte en alguien ingobernable e insumiso.",
-      incorrecto: "Para Mendoza leer significa resistir al capitalismo depredador, a los analfabetas funcionales en el poder, a la brutalidad del sistema. «Leemos porque estamos hartos de un mundo agobiante que nos acorrala hasta asfixiarnos»."
+      correcto: "Correcto. La tesis vincula estas historias con los cambios tecnológicos continuos, la inteligencia artificial y los desafíos de la digitalización que enfrenta el ingeniero.",
+      incorrecto: "El documento señala que las historias de migración, pandemia y transformación social muestran un contexto de adaptación constante, comparable a los cambios tecnológicos que enfrenta hoy un ingeniero en sistemas."
     }
   },
   {
-    texto: "Según Mendoza, ¿por qué se censuran, queman y prohíben los libros?",
+    texto: "Para el ingeniero en sistemas, ¿qué representa la ciencia ficción según la tesis?",
     opciones: [
-      "Porque contienen mentiras e información falsa",
-      "Porque el papel de los libros es inflamable y representa un peligro",
-      "Porque quienes tienen el poder temen lo que el lector puede hacer con ese poder transformador",
-      "Porque los libros son caros y solo los ricos pueden acceder a ellos"
-    ],
-    correcta: 2,
-    feedback: {
-      correcto: "¡Brillante! Mendoza dice que «a uno le enseñan a leer con argumentos falaces: porque tienen miedo de lo que uno pueda hacer con ese poder». El lector se vuelve ingobernable para el establecimiento.",
-      incorrecto: "Mendoza es contundente: los libros se censuran y queman porque generan lectores insubordinados. «Aprender a leer literatura es comenzar a reinventar la realidad». Eso convierte al lector en «un anarquista furibundo, en una amenaza para los poderes del establecimiento»."
-    }
-  },
-  {
-    texto: "¿Cómo describe Mendoza la relación de Borges con María Kodama?",
-    opciones: [
-      "Una discípula que le copiaba todos sus manuscritos",
-      "Una editora que publicó sus obras más importantes",
-      "Una lectora única que se convirtió en su amiga inseparable, con un amor que pasaba por la biblioteca",
-      "Su secretaria personal durante sus últimos años de vida"
-    ],
-    correcta: 2,
-    feedback: {
-      correcto: "¡Correcto! Mendoza recuerda que Borges se enamoró de María Kodama, «una lectora única que poco a poco se convirtió en su amiga inseparable». El amor de ambos pasaba obligatoriamente por la biblioteca.",
-      incorrecto: "Mendoza cuenta que Borges se enamoró de María Kodama, una lectora única que se volvió su amiga inseparable. El amor de ambos era libresco. Mendoza la conoció en Toledo y ella le dijo: «Los libros son espacios sagrados y la biblioteca una deidad multiforme»."
-    }
-  },
-  {
-    texto: "Mendoza escribió este libro en una circunstancia muy particular. ¿Cuál fue?",
-    opciones: [
-      "Durante un viaje en barco por el océano Pacífico",
-      "En medio de la pandemia de covid-19, con el mundo en cuarentena",
-      "Mientras cumplía una condena en la cárcel de Bogotá",
-      "En un retiro espiritual en los Andes colombianos"
+      "Un simple escape recreativo sin mayor utilidad",
+      "Un laboratorio mental donde se ponen a prueba la lógica computacional, la arquitectura de sistemas y la ética tecnológica",
+      "Un género reservado únicamente para el entretenimiento infantil",
+      "Una distracción que aleja al estudiante de sus estudios técnicos"
     ],
     correcta: 1,
     feedback: {
-      correcto: "¡Exacto! Mendoza lo confiesa directamente: «escribo este libro en medio de la pandemia». El covid-19 se propagó por el planeta y él reflexiona sobre la lectura mientras ve entierros masivos en televisión.",
-      incorrecto: "Mendoza lo dice sin rodeos: «como un dato curioso, escribo este libro en medio de la pandemia». El covid-19 paralizó el mundo y él encontró en la escritura sobre libros una forma de resistir la incertidumbre, igual que de niño leyó en el hospital mientras la muerte rondaba."
+      correcto: "¡Exacto! La tesis describe la ciencia ficción como un laboratorio mental, no como un escape, donde se prueban en escenarios extremos los principios de la lógica, la arquitectura de sistemas y la ética tecnológica.",
+      incorrecto: "Según el documento, la ciencia ficción no es un simple escape recreativo: funciona como un laboratorio mental en el que la lógica computacional, la arquitectura de sistemas y la ética tecnológica son puestas a prueba."
+    }
+  },
+  {
+    texto: "Frente a una distopía gobernada por algoritmos de vigilancia masiva, ¿a qué obliga esta historia al lector-ingeniero según la tesis?",
+    opciones: [
+      "A memorizar las fechas de publicación de la obra",
+      "A analizar las decisiones de diseño y las variables éticas que fueron ignoradas",
+      "A comparar el precio de los equipos tecnológicos del relato",
+      "A calificar la calidad literaria del estilo narrativo"
+    ],
+    correcta: 1,
+    feedback: {
+      correcto: "Correcto. La tesis explica que ese tipo de escenarios obliga a analizar qué parámetros fueron optimizados y qué variables éticas se ignoraron, activando un pensamiento sistémico en el lector.",
+      incorrecto: "El documento plantea que una distopía de vigilancia algorítmica obliga al lector a analizar las decisiones de diseño detrás de ese estado: qué se optimizó y qué valores éticos quedaron de lado."
+    }
+  },
+  {
+    texto: "La tesis compara la lectura de ciencia ficción con una práctica habitual del ingeniero. ¿Cuál?",
+    opciones: [
+      "Modelar escenarios de fallo en una arquitectura de software",
+      "Calcular el presupuesto de un proyecto",
+      "Diseñar el logotipo de una empresa",
+      "Redactar actas de reunión"
+    ],
+    correcta: 0,
+    feedback: {
+      correcto: "¡Bien! Así como el ingeniero modela escenarios de fallo en una arquitectura de software, el lector de ciencia ficción modela escenarios sociales donde la tecnología falla o triunfa de maneras inesperadas.",
+      incorrecto: "Según la tesis, de manera similar a como un ingeniero modela escenarios de fallo en una arquitectura de software, el lector de ciencia ficción modela escenarios sociales en los que la tecnología ha fallado o triunfado."
+    }
+  },
+  {
+    texto: "¿Qué le permite al futuro ingeniero el simple acto de leer, según el apartado 'La literatura como pilar de la digitalización'?",
+    opciones: [
+      "Depender por completo de lo que dicta un sistema",
+      "Cimentarse en ideales claros y desarrollar un pensamiento autónomo",
+      "Evitar cualquier contacto con la tecnología",
+      "Reemplazar la necesidad de formación técnica"
+    ],
+    correcta: 1,
+    feedback: {
+      correcto: "Exacto. El texto plantea la lectura como una herramienta esencial para cimentarse en ideales claros, en lugar de tomar decisiones guiadas únicamente por lo que dicta un sistema.",
+      incorrecto: "La tesis señala que leer ayuda al futuro ingeniero a cimentarse en ideales propios y a desarrollar un pensamiento autónomo, en vez de decisiones guiadas solo por lo que un sistema suele dictar."
+    }
+  },
+  {
+    texto: "¿Qué autor citan los estudiantes para hablar de la lectura como una forma de pensamiento libre frente a la inmediatez digital?",
+    opciones: [
+      "Yuval Noah Harari",
+      "Umberto Eco",
+      "Mario Mendoza",
+      "Sydney J. Harris"
+    ],
+    correcta: 2,
+    feedback: {
+      correcto: "Correcto. Mario Mendoza es citado por su idea de la lectura como acto de desobediencia frente a la productividad capitalista, vinculada a la emancipación y la resistencia.",
+      incorrecto: "Es Mario Mendoza. Los autores de la tesis lo citan al hablar de la lectura como un acto de desobediencia frente a la productividad capitalista, asociado a la emancipación y la resistencia."
+    }
+  },
+  {
+    texto: "Según la tesis, ¿frente a qué resiste el ingeniero cuando aplica a su propio trabajo la idea de Mendoza de que leer es resistir?",
+    opciones: [
+      "Frente a la tentación de optimizar métricas sin preguntarse qué valores humanos se sacrifican",
+      "Frente al uso de cualquier lenguaje de programación nuevo",
+      "Frente a las exigencias de sus propios clientes",
+      "Frente al avance de las matemáticas aplicadas"
+    ],
+    correcta: 0,
+    feedback: {
+      correcto: "Así es. El apartado de ética explica que el ingeniero resiste la inercia de crear tecnología por la tecnología misma y la tentación de optimizar sin pensar en los valores humanos en juego.",
+      incorrecto: "La tesis plantea que esa resistencia consiste en cuestionar la inercia de crear tecnología por sí misma y la tentación de optimizar métricas sin detenerse a pensar qué valores humanos se sacrifican."
+    }
+  },
+  {
+    texto: "El informático Sydney J. Harris, citado en la tesis, advierte sobre un peligro real. ¿Cuál es, según el documento?",
+    opciones: [
+      "Que las máquinas se vuelvan más veloces que las personas",
+      "Que las personas terminen razonando como máquinas, perdiendo su criterio propio",
+      "Que los algoritmos reemplacen a los programadores",
+      "Que la inteligencia artificial supere a la humana en creatividad"
+    ],
+    correcta: 1,
+    feedback: {
+      correcto: "Exacto. La advertencia de Harris que recoge la tesis es que el riesgo no está en que las máquinas piensen como personas, sino en que las personas terminen pensando como máquinas.",
+      incorrecto: "Según Harris, citado en el documento, el verdadero riesgo no es que las computadoras imiten el pensamiento humano, sino que los seres humanos terminen razonando con la rigidez de una máquina."
+    }
+  },
+  {
+    texto: "La tesis abre con un epígrafe de Umberto Eco. Según esa idea, ¿para qué están hechos los libros?",
+    opciones: [
+      "Para que el lector les crea sin cuestionarlos",
+      "Para ser sometidos a investigación, preguntándose qué significan y no solo qué dicen",
+      "Para resumir la historia de una época",
+      "Para entretenimiento exclusivamente"
+    ],
+    correcta: 1,
+    feedback: {
+      correcto: "Correcto. Eco plantea que un libro no busca ser creído, sino investigado: la pregunta clave no es qué dice, sino qué significa.",
+      incorrecto: "El epígrafe de Eco propone que los libros existen para ser investigados, no para ser creídos sin más, y que la pregunta central frente a ellos es qué significan, no solo qué dicen."
+    }
+  },
+  {
+    texto: "En la conclusión, ¿cómo describen los autores al lector que deja de ser un simple lector para convertirse en parte de la historia?",
+    opciones: [
+      "Un crítico literario profesional",
+      "Un espectador completamente pasivo",
+      "Un mutante que entra en la historia, pero usando la lógica de un ingeniero de sistemas",
+      "Un programador que solo lee documentación técnica"
+    ],
+    correcta: 2,
+    feedback: {
+      correcto: "¡Eso es! La conclusión retoma la idea de Mendoza del lector-mutante, pero la lleva al terreno de la ingeniería: alguien que se entraña en la historia usando la lógica necesaria de un ingeniero de sistemas.",
+      incorrecto: "Según la conclusión, ese lector se convierte en un actor, en un mutante que entra en la historia, pero usando la lógica propia de un ingeniero de sistemas."
+    }
+  },
+  {
+    texto: "Entre las referencias del trabajo aparece un artículo de G. Müller. ¿Sobre qué tema trata?",
+    opciones: [
+      "Inteligencia artificial aplicada a la robótica industrial",
+      "Pandemia y migración en las obras de Fernanda Trías y Yuri Herrera",
+      "La historia de la informática en Latinoamérica",
+      "Una biografía de Mario Mendoza"
+    ],
+    correcta: 1,
+    feedback: {
+      correcto: "Correcto. El artículo de Müller analiza variantes literarias postglobal centradas en la pandemia y la migración, a partir de las obras de Fernanda Trías y Yuri Herrera.",
+      incorrecto: "Se trata del artículo de G. Müller sobre variantes literarias de una creación postglobal, enfocado en la pandemia y la migración presentes en las obras de Fernanda Trías y Yuri Herrera."
     }
   }
 ];
@@ -307,34 +377,36 @@ function mostrarResultado() {
   screenResult.style.display = 'block';
 
   const puntaje = estadoJuego.puntaje;
-  const gano = puntaje >= 70;
+  const total   = estadoJuego.preguntasMezcladas.length;
+  const ratio   = estadoJuego.correctas / total;
+  const gano    = ratio >= 0.7;
 
   document.getElementById('result-badge').textContent = gano ? '🏆' : '📚';
   document.getElementById('result-score').textContent = puntaje;
 
   const title = document.getElementById('result-title');
-  if (puntaje === 100 || (puntaje >= 100 && estadoJuego.bonusRacha > 0)) {
-    title.textContent = '¡Mutante Lector Absoluto!';
+  if (estadoJuego.correctas === total) {
+    title.textContent = '¡Mutante Lector-Ingeniero Absoluto!';
     title.className = 'result-title win';
   } else if (gano) {
-    title.textContent = '¡Has resistido con la lectura!';
+    title.textContent = '¡Has resistido con la lectura crítica!';
     title.className = 'result-title win';
   } else {
-    title.textContent = 'El libro aún guarda secretos';
+    title.textContent = 'La tesis aún guarda ideas por descubrir';
     title.className = 'result-title lose';
   }
 
   const mensajes = {
-    perfecto: "«Un lector es un ser anfibio, un vampiro que se alimenta de otros, un caníbal.» — Dominas cada página de este libro. Eres el mutante lector que Mendoza describe.",
-    alto: "«Leemos para ser muchos, para multiplicarnos, para devenir multitud.» — Tu conocimiento del libro es sólido. Has entendido el llamado de Mario Mendoza.",
-    medio: "«Los libros siempre han sido mis mejores aliados.» — Vas por buen camino. Vuelve a abrir el libro, hay más secretos entre sus páginas esperándote.",
-    bajo: "«Entrar en la literatura es ver gigantes donde los demás solo ven molinos de viento.» — El viaje apenas comienza. Mendoza te invita a regresar al texto y resistir una vez más."
+    perfecto: "Dominas tanto las páginas de la literatura como la lógica del ingeniero: eres el lector-mutante que describe nuestra conclusión, alguien que se entraña en la historia sin dejar de pensar como un ingeniero de sistemas.",
+    alto: "Tu lectura de la tesis es sólida. Entiendes cómo la literatura y la ingeniería se necesitan mutuamente para formar un pensamiento crítico y autónomo.",
+    medio: "Vas por buen camino. Vuelve a los apartados sobre ciencia ficción, ética y digitalización: ahí quedan ideas clave por descubrir.",
+    bajo: "El recorrido apenas comienza. Vuelve a leer la tesis con calma: cada sección, desde el resumen hasta la conclusión, esconde piezas importantes del argumento."
   };
 
   let msg;
-  if (puntaje >= 95) msg = mensajes.perfecto;
-  else if (puntaje >= 70) msg = mensajes.alto;
-  else if (puntaje >= 40) msg = mensajes.medio;
+  if (estadoJuego.correctas === total) msg = mensajes.perfecto;
+  else if (ratio >= 0.7) msg = mensajes.alto;
+  else if (ratio >= 0.4) msg = mensajes.medio;
   else msg = mensajes.bajo;
 
   document.getElementById('result-message').textContent = msg;
